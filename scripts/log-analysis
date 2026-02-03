@@ -1,0 +1,9 @@
+sudo grep "Failed password" /var/log/auth.log
+
+echo " "
+
+sudo grep -E "Failed password|authentication failure" /var/log/auth.log | wc -l
+
+echo " "
+
+sudo grep "Failed password" /var/log/auth.log | sort | uniq -c | sort -nr
