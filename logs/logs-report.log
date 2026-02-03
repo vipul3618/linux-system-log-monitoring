@@ -1,0 +1,32 @@
+======== System Resource Report=======
+
+
+The OS Version is: Ubuntu 22.04.5 LTS
+
+THe Kernal is: 6.8.0-85-generic
+
+
+CPU Load:
+up 6 hours, 5 minutes
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.3Gi       765Mi        34Mi       1.7Gi       2.2Gi
+Swap:             0B          0B          0B
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        39G   17G   21G  44% /
+/dev/sda2       512M  6.1M  506M   2% /boot/efi
+/dev/sr0        4.6G  4.6G     0 100% /media/jitu/Ubuntu 22.04.2 LTS amd64
+
+The total RAM is: 3.8Gi
+Used RAM: 1.3Gi
+Free RAM: 765Mi
+
+The top 3 Processes by CPU usage:
+%CPU    PPID     PID COMMAND
+ 5.2       1    1206 Suricata-Main
+ 0.9    1948    2107 gnome-shell
+ 0.1       1    1699 packagekitd
+ 0.1       1    4022 snapd
